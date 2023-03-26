@@ -1,0 +1,23 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "03049577-5ca5-4041-8af9-169de8371437",
+    "ArchiveBlobContainer": "archive",
+    "BasePriceFileName": "base_price_file",
+    "BatchSize": "500",
+    "BindingRedirects": "[ { \"ShortName\": \"System.Memory\", \"RedirectToVersion\": \"4.0.1.1\", \"PublicKeyToken\": \"cc7b13ffcd2ddd51\" },{ \"ShortName\": \"System.Diagnostics.DiagnosticSource\", \"RedirectToVersion\": \"4.0.4.0\", \"PublicKeyToken\": \"cc7b13ffcd2ddd51\" },{ \"ShortName\": \"Microsoft.Spatial\", \"RedirectToVersion\": \"7.6.4.0\", \"PublicKeyToken\": \"31bf3856ad364e35\" },{ \"ShortName\": \"Newtonsoft.Json\", \"RedirectToVersion\": \"12.0.0.0\", \"PublicKeyToken\": \"30ad4fe6b2a6aeed\" },{ \"ShortName\": \"System.ComponentModel.Annotations\", \"RedirectToVersion\": \"4.2.1.0\", \"PublicKeyToken\": \"b03f5f7f11d50a3a\" },{ \"ShortName\": \"System.Diagnostics.DiagnosticSource\", \"RedirectToVersion\": \"4.0.4.0\", \"PublicKeyToken\": \"cc7b13ffcd2ddd51\" } ]",
+    "CategoriesLookupFileName": "lookups/categories.json",
+    "CosmosConnectionString": "AccountEndpoint=https://pod03-dev-rck-csdb.documents.azure.com:443/;AccountKey=djqxAD5oI39TXGFk2qVjCq8yJib4jqTPC5BYTFWBSFlL726PcAw7YQvoPZY6zXuGi859wXQAYKHfgXShS31PTg==;database=db;",
+    "D365ProductsContainer": "d365-products",
+    "MaxDegreeOfParallelism": "5",
+    "ProductsLookupFileName": "lookups/products.json",
+    "QtyPriceFileName": "quantity_disc_price_file",
+    "SimplePriceFileName": "simple_disc_price_file",
+    "StorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=pod03devrcksacct;AccountKey=gA2f5vzUnZJ2qlNpFhM/A1ZzZHQQgAEjrF06z4PSlUuxxT0y2NsaG3PGjrjarYunvKaRz+Fp+YkZ37M2GcN4cg==;EndpointSuffix=core.windows.net",
+    "ThresholdPriceFileName": "threshold_disc_price_file",
+    "ShippingThresholdPriceFileName": "shipping_disc_price_file",
+    "DealPriceFileName": "deal_prices"
+  }
+}
